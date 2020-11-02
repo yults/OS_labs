@@ -5,7 +5,7 @@ pid=$(echo $x | awk -F ":" '{print $1}')
 commmand=$(echo $x | awk -F ":" '{print $2}')
 if [ -f "/proc/"$pid/io ]
 then
-rbytes=$(grep -h "read_bytes:" "/proc/"$pid/io | sed "s/[^0-9]*//")
+rbytes=$(sudo grep -h "read_bytes:" "/proc/"$pid/io | sed "s/[^0-9]*//")
 echo "$pid $cmd $rbytes"
 fi
 done | sort -nk1 > 7beforesleep.txt
@@ -16,7 +16,7 @@ pid=$(echo $x | awk -F ":" '{print $1}')
 commmand=$(echo $x | awk -F ":" '{print $2}')
 if [ -f "/proc/"$pid/io ]
 then
-rbytes=$(grep -h "read_bytes:" "/proc/"$pid/io | sed "s/[^0-9]*//")
+rbytes=$(sudo grep -h "read_bytes:" "/proc/"$pid/io | sed "s/[^0-9]*//")
 echo "$pid $cmd $rbytes"
 fi
 done | sort -nk1 > 7aftersleep.txt
