@@ -1,0 +1,10 @@
+DeviceID  DriveType  FreeSpace     ProviderName  Size          VolumeName    
+C:        3          329112170496                500496855040  OS            
+D:        3          95153577984                 288861712384  Прочие  
+E:        3          173191065600                209715195904  Учеба    
+FreePhysicalMemory  
+3216288             
+TotalPhysicalMemory  
+8464674816           
+Caption                                                                          Version     
+Майкрософт Windows 10 Домашняя для одного языка  10.0.18362  
