@@ -1,0 +1,106 @@
+Сравнение файлов services.txt и NEWSERVICES.TXT
+Не удается выполнить синхронизацию строк. Слишком много различий между файлами.
+***** services.txt
+
+Имя_службы: AdobeARMservice
+Выводимое_имя: Adobe Acrobat Update Service
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+        Ожидание           : 0x0
+        ID_процесса        : 4256
+        Флаги              : 
+
+SERVICE_NAME: AJRouter
+DISPLAY_NAME: Служба маршрутизатора AllJoyn
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+SERVICE_NAME: ALG
+DISPLAY_NAME: Служба шлюза уровня приложения
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+SERVICE_NAME: AppIDSvc
+DISPLAY_NAME: Удостоверение приложения
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+Имя_службы: Appinfo
+Выводимое_имя: Сведения о приложении
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+        Ожидание           : 0x0
+        ID_процесса        : 6516
+        Флаги              : 
+
+SERVICE_NAME: AppReadiness
+DISPLAY_NAME: Готовность приложений
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+SERVICE_NAME: AppXSvc
+DISPLAY_NAME: Служба развертывания AppX (AppXSVC)
+        TYPE               : 30  WIN32  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+Имя_службы: ASLDRService
+Выводимое_имя: ASLDR Service
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+        Ожидание           : 0x0
+        ID_процесса        : 3816
+        Флаги              : 
+
+Имя_службы: AtherosSvc
+Выводимое_имя: AtherosSvc
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+***** NEWSERVICES.TXT
+*****
+
